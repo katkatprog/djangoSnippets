@@ -1,0 +1,10 @@
+FROM ubuntu:latest
+WORKDIR /root/src
+
+RUN apt update && apt-get update
+RUN apt install -y git curl wget nano vim
+RUN apt install -y python3-pip
+RUN apt install -y sqlite3
+RUN pip3 install Django
+RUN pip3 install djangorestframework
+RUN pip3 install django-cors-headers
