@@ -8,3 +8,4 @@ RUN apt install -y sqlite3
 RUN pip3 install Django
 RUN pip3 install djangorestframework
 RUN pip3 install django-cors-headers
+RUN pip3 install tzdata

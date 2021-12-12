@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-burba+isf_n0e4gct+lztj6kgc!8ad4=)rc(9f1@%b(%zo$mxf
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [] 
 
 
 # Application definition
