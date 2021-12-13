@@ -2,5 +2,7 @@
 	"extensions": [
 		"ms-python.python",
 		"ms-python.vscode-pylance",
+		"batisteo.vscode-django",
+		"anbuselvanrocky.bootstrap5-vscode"
 	],
 }

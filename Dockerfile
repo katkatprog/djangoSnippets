@@ -11,3 +11,4 @@ RUN pip3 install django-cors-headers
 RUN pip3 install tzdata
 RUN pip3 install django-tailwind
 RUN pip3 install django-bootstrap5
+RUN pip3 install django-pygments-renderer
