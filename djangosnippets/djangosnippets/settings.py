@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'django_extensions',
     'django_bootstrap5',
     'pygments_renderer',
+    'accounts.apps.AccountsConfig'
 ]
 
 MIDDLEWARE = [
@@ -129,3 +130,7 @@ STATIC_URL = '/static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 SHELL_PLUS = 'bpython'
+
+LOGIN_URL = '/accounts/login'
+LOGIN_REDIRECT_URL = '/'
+LOGOUT_REDIRECT_URL = '/'
