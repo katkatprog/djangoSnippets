@@ -1,10 +1,15 @@
 from django.http.response import HttpResponse
 from django.shortcuts import render
 
+from snippets.models import Snippet
+
 # Create your views here.
 
 def top(request):
-    return HttpResponse(b"Hello World")
+    # return HttpResponse(b"Hello World")
+    snippets = Snippet.objects.all()
+    context = {"snippets": snippets}
+    return render(request, "snippets/top.html", context)
 
 def snippet_new(request):
     return HttpResponse('スニペットの登録')
